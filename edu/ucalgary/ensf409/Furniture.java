@@ -173,8 +173,6 @@ public class Furniture implements Comparable<Furniture>{
             return this.filing.price;
         return 0; 
     }
-
-
     public String getType()
     {
         if (this.category.equals("chair")) 
@@ -187,8 +185,6 @@ public class Furniture implements Comparable<Furniture>{
             return this.filing.type;
         return "not found"; 
     }
-
-    
     public Boolean getBool(int index)
     {
         if(index == 0){
